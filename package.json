@@ -1,6 +1,6 @@
 {
-  "name": "saleor-demo-0",
-  "version": "0.0.0",
+  "name": "Marketplace",
+  "version": "1.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
