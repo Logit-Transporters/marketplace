@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="533f55f3-600a-4c58-809c-0d2ec2e25683" name="Changes" comment="updating market place preparing for local development">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/update_types.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.graphqlrc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/STF_01.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/STF_02.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/STF_03.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/STF_05.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql.config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/cart/CheckoutLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/cart/DeleteLineButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/cart/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/cart/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/categories/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/collections/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/login/LoginComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/orders/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/pages/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/products/[slug]/AddButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/products/[slug]/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/products/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/products/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main)/products/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/draft/disable/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/draft/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/checkout/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/checkout/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/checkout/pageWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/opengraph-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/robots.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/twitter-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/Root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/add.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/back.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/chevron.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/discount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/eye.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/eyeHidden.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/giftCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/language.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/minus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/photo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/plus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/remove.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/success.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/icons/trash.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/assets/images/SaleorLogo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Address.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressForm/AddressForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressForm/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressForm/useAddressFormSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressForm/useAddressFormUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressForm/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressSectionSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressSelectBox/AddressSelectBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressSelectBox/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/AddressSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/CountrySelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Divider/Divider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Divider/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/ErrorContentWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/IconButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/LinkAsButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/ManualSaveAddressForm/AddressFormActions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/ManualSaveAddressForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Money.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/PasswordInput/PasswordInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/PasswordInput/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/SelectBox/SelectBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/SelectBox/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/SelectBoxGroup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Skeleton/Skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Skeleton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/TextInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/components/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/content/compiled-locales/en-US.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/content/locales/en-US.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/graphql/checkout.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/graphql/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/graphql/order.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/graphql/payment.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/graphql/user.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAddressAvailability.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAlerts/consts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAlerts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAlerts/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAlerts/useAlerts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAutoSaveAddressForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useAvailableShippingCountries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useCheckout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useCheckoutComplete.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useCheckoutFormValidationTrigger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useCustomerAttach.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useDebouncedSubmit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useErrorMessages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useErrorMessages/useErrorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useEvent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useFetch/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useFetch/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useFetch/useFetch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useForm/FormProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useForm/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useForm/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useForm/useField.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useForm/useForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useForm/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useFormSubmit/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useFormSubmit/useFormSubmit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useGetParsedErrors/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useGetParsedErrors/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useGetParsedErrors/useGetParsedErrors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useOrder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useSetCheckoutFormValidationState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useSubmit/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useSubmit/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useSubmit/useSubmit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useSubmit/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useUrlChange.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/hooks/useUser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/consts/countries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/consts/inputAttributes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/globalTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/regions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/utils/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/utils/locale.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/utils/money.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/utils/phoneNumber.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/lib/utils/url.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/providers/AppConfigProvider/consts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/providers/createSafeContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressCreateForm/AddressCreateForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressCreateForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressEditForm/AddressEditForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressEditForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressList/AddressList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/AddressList/useAddressListForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/CheckoutForm/CheckoutForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/CheckoutForm/CheckoutFormSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/CheckoutForm/CollapseSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/CheckoutForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Contact/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Contact/ContactSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Contact/SignInFormContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Contact/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/DeliveryMethods/DeliveryMethods.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/DeliveryMethods/DeliveryMethodsSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/DeliveryMethods/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/DeliveryMethods/useDeliveryMethodsForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestBillingAddressSection/GuestBillingAddressSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestBillingAddressSection/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestBillingAddressSection/useBillingSameAsShippingForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestBillingAddressSection/useGuestBillingAddressForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestShippingAddressSection/GuestShippingAddressSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestShippingAddressSection/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestShippingAddressSection/useGuestShippingAddressForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestUser/GuestUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestUser/useCheckoutEmailUpdate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/GuestUser/useGuestUserForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/OrderInfo/DeliverySection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/OrderInfo/OrderInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/OrderInfo/PaymentSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/OrderInfo/Section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/OrderInfo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PageHeader/PageHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PageHeader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/AdyenDropIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/adyenDropin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/createAdyenCheckout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/errorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/useAdyenDropin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/AdyenDropIn/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/PaymentMethods.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/PaymentProcessingScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/PaymentSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/PaymentSectionSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/StripeElements/StripePaymentComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/StripeElements/stripeComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/StripeElements/stripeElementsForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/StripeElements/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/errorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/supportedPaymentApps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/usePaymentGatewaysInitialize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/usePayments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/PaymentSection/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/ResetPassword/ResetPassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/ResetPassword/useResetPasswordForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/SignIn/SignIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/SignIn/usePasswordResetRequest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/SignIn/useSignInForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/SignedInUser/SignedInUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/PromoCodeAdd.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummaryItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummaryItemMoneyEditableSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummaryItemMoneyInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummaryItemMoneySection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummaryMoneyRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummaryPromoCodeRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/SummarySkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/useSummaryItemForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/Summary/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserAddressSectionContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserBillingAddressSection/UserBillingAddressSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserBillingAddressSection/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserBillingAddressSection/useUserBillingAddressForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserShippingAddressSection/UserShippingAddressSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserShippingAddressSection/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/sections/UserShippingAddressSection/useUserShippingAddressForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/state/checkoutValidationStateStore/checkoutValidationStateStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/state/checkoutValidationStateStore/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/state/checkoutValidationStateStore/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/state/updateStateStore/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/state/updateStateStore/updateStateStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/state/updateStateStore/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/CheckIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/ChevronDownIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/EyeHiddenIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/EyeIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/PhotoIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/RemoveIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/SvgContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/TrashIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/User.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/ui-kit/icons/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/Checkout/Checkout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/Checkout/CheckoutSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/Checkout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/EmptyCartPage/EmptyCartPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/EmptyCartPage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/OrderConfirmation/OrderConfirmation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/OrderConfirmation/OrderConfirmationSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/OrderConfirmation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/PageNotFound/PageNotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/PageNotFound/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/views/RootViews.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/CheckoutAddLine.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/CheckoutCreate.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/CheckoutDeleteLines.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/CheckoutFind.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/CurrentUser.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/CurrentUserOrderList.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/MenuGetBySlug.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/OrderDetailsFragment.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/PageGetBySlug.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/ProductDetails.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/ProductList.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/ProductListByCategory.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/ProductListByCollection.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/ProductListItem.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/ProductListPaginated.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/UserDetailsFragment.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphql/VariantDetailsFragment.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/checkout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/date.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/graphql.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/atoms/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/atoms/Overlay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/atoms/ProductImageWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/AvailabilityMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/DraftModeNotification.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/OrderList/OrderList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/OrderList/components/OrderListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/Pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/PaymentStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/ProductElement.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/ProductList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/VariantSelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/Nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/CartNavItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/CloseButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/MobileMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/NavLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/NavLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/OpenButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/UserMenu/UserMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/UserMenu/components/UserAvatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/UserMenu/components/UserInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/components/nav/components/useMobileMenu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getHrefForVariant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YARPyIjNWTXvIbhigaQPa1TBUj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/michael/Desktop/projects/logit-controlpane&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\michael\\Desktop\\projects\\marketplace\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\michael\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="3a395d76-afec-423e-9a89-132fafed2910" />
+        <option name="reportName" value="marketplace/qodana/2023-11-17" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\michael\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="3a395d76-afec-423e-9a89-132fafed2910" reportId="marketplace/qodana/2023-11-17" />
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="533f55f3-600a-4c58-809c-0d2ec2e25683" name="Changes" comment="" />
+      <created>1699966376506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699966376506</updated>
+      <workItem from="1699966377555" duration="3329000" />
+      <workItem from="1699973542628" duration="2087000" />
+      <workItem from="1700115335684" duration="1049000" />
+      <workItem from="1700199761176" duration="1079000" />
+      <workItem from="1700200878615" duration="1303000" />
+    </task>
+    <task id="LOCAL-00001" summary="updating market place preparing for local development">
+      <option name="closed" value="true" />
+      <created>1699974662676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699974662676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.template" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updating market place preparing for local development" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating market place preparing for local development" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/(main)/page.tsx</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/checkout/Root.tsx</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/checkout/hooks/useCheckout.ts</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/.graphqlrc.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
