@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="533f55f3-600a-4c58-809c-0d2ec2e25683" name="Changes" comment="updating market place preparing for local development">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="533f55f3-600a-4c58-809c-0d2ec2e25683" name="Changes" comment="updating market place preparing for local development" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +96,7 @@
       <workItem from="1703696845692" duration="82000" />
       <workItem from="1703696950933" duration="810000" />
       <workItem from="1703928128788" duration="1391000" />
-      <workItem from="1703929744502" duration="3369000" />
+      <workItem from="1703929744502" duration="3447000" />
     </task>
     <task id="LOCAL-00001" summary="updating market place preparing for local development">
       <option name="closed" value="true" />
