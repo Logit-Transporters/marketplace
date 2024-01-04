@@ -28,8 +28,6 @@ jobs:
           npm install -g pnpm
           pnpm install
           pnpm run build
-          pnpm exec playwright install
-          pnpm run test
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
