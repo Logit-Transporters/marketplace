@@ -4,16 +4,17 @@ gql/
 .env
 
 # dependencies
-/node_modules
-/.pnp
+**/node_modules
+/.pnpm
 .pnp.js
-
 # testing
 /coverage
 
 # next.js
-/.next/
+.next/
 /out/
+**/dist
+.turbo/
 
 # production
 /build
@@ -39,3 +40,12 @@ next-env.d.ts
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+# IDE
+.idea/
+.vscode/
+
+# misc
+*.log
+.DS_Store
+**/compiled-locales
