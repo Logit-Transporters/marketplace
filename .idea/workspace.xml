@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="533f55f3-600a-4c58-809c-0d2ec2e25683" name="Changes" comment="updated to version 3.18.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/ui/components/AuthProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/AuthProvider.tsx" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+>>>>>>> e94c4259304439e8d37afea60c851e341870bfd4
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +45,28 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/Administrator/Desktop/project/logit-controlpane",
+=======
+    "last_opened_file_path": "C:/Users/michael/Desktop/project/logit-controlpane",
+>>>>>>> e94c4259304439e8d37afea60c851e341870bfd4
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
+<<<<<<< HEAD
     "prettier.import.notification.dismissed": "true",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Administrator\\Desktop\\project\\marketplace\\node_modules\\prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Users\\Administrator\\Desktop\\project\\marketplace\\node_modules\\typescript\\lib",
+=======
+    "npm.dev.executor": "Run",
+    "prettier.import.notification.dismissed": "true",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Administrator\\Desktop\\project\\marketplace\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\michael\\Desktop\\projects\\marketplace\\node_modules\\typescript\\lib",
+>>>>>>> e94c4259304439e8d37afea60c851e341870bfd4
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,8 +78,12 @@
       <recent name="C:\Users\Administrator\Desktop\project\marketplace" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -73,6 +93,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+>>>>>>> e94c4259304439e8d37afea60c851e341870bfd4
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
@@ -98,9 +133,15 @@
       <workItem from="1703589704223" duration="805000" />
       <workItem from="1703696845692" duration="82000" />
       <workItem from="1703696950933" duration="810000" />
+<<<<<<< HEAD
       <workItem from="1703761939313" duration="831000" />
       <workItem from="1703793385976" duration="82000" />
       <workItem from="1703846367087" duration="3637000" />
+=======
+      <workItem from="1703928128788" duration="1391000" />
+      <workItem from="1703929744502" duration="3447000" />
+      <workItem from="1704114233242" duration="1309000" />
+>>>>>>> e94c4259304439e8d37afea60c851e341870bfd4
     </task>
     <task id="LOCAL-00001" summary="updating market place preparing for local development">
       <option name="closed" value="true" />

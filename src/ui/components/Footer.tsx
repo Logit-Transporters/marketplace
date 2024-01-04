@@ -8,7 +8,8 @@ export async function Footer() {
 		revalidate: 60 * 60 * 24,
 	});
 	const currentYear = new Date().getFullYear();
-
+	const companyFullName = "Market, Inc.";
+	const partner = "Saleor";
 	return (
 		<footer className="border-neutral-300 bg-neutral-50">
 			<div className="mx-auto max-w-7xl px-4 lg:px-8">
@@ -56,8 +57,10 @@ export async function Footer() {
 				</div>
 
 				<div className="flex flex-col justify-between border-t border-neutral-200 py-10 sm:flex-row">
-					<p className="text-sm text-neutral-500">Copyright &copy; {currentYear} Your Store, Inc.</p>
-					<p className="text-sm text-neutral-500">Powered by Saleor</p>
+					<p className="text-sm text-neutral-500">
+						Copyright &copy; {currentYear} {companyFullName}
+					</p>
+					<p className="text-sm text-neutral-500">Powered by {partner} </p>
 				</div>
 			</div>
 		</footer>
